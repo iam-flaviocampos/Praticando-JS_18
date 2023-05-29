@@ -1,0 +1,16 @@
+Este código é uma função chamada numeroExtenso que recebe um número como parâmetro e o converte para
+seu equivalente por extenso. O objetivo é ler um número entre 0 e 10 e escrevê-lo por extenso utilizando
+o comando switch.
+
+
+Dentro da função, há uma estrutura de controle switch que avalia o valor do número passado como argumento.
+Em cada case, temos os números de 0 a 10 e, para cada um deles, é exibido no console o número por extenso
+correspondente. Por exemplo, se o número for 0, a função exibirá a string "zero" no console.
+
+Caso o número não esteja dentro do intervalo de 0 a 10, há um case default que é executado. Nesse caso, a
+função exibe a mensagem "Número fora do intervalo." no console.
+
+Após a definição da função, são feitas chamadas à função numeroExtenso com diferentes valores de entrada
+para demonstrar o funcionamento do código. Os números de 0 a 10 são passados como argumentos para a função,
+e a saída correspondente é exibida no console. Por fim, é feita uma chamada à função com o número 11, que
+está fora do intervalo esperado.
